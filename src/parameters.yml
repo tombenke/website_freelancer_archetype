@@ -1,0 +1,57 @@
+author: "{{author_github_account}}"
+projectName: "{{project_name}}"
+brand: "{{brand}}"
+authorFullName: "{{author_full_name}}"
+projectDescription: "{{project_description}}"
+status: {{status}}
+skills: {{skills}}
+title: "{{page_title}}"
+about: 
+  heading: "About"
+  text: "This section is about me, and about my competencies and services. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
+portfolio: 
+  heading: My Portfolio
+  projects: 
+    - heading: Project One
+      subHeading: Project Subheading
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
+      photoUrl: img/portfolio/cabin.png
+      projectUrl: "#portfolioModal1"
+    - heading: Project Two
+      subHeading: Project Subheading
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
+      photoUrl: img/portfolio/cake.png
+      projectUrl: "#portfolioModal2"
+    - heading: Project Three
+      subHeading: Project Subheading
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
+      photoUrl: img/portfolio/circus.png
+      projectUrl: "#portfolioModal3"
+    - heading: Project Four
+      subHeading: Project Subheading
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
+      photoUrl: img/portfolio/game.png
+      projectUrl: "#portfolioModal4"
+    - heading: Project Five
+      subHeading: Project Subheading
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
+      photoUrl: img/portfolio/safe.png
+      projectUrl: "#portfolioModal5"
+    - heading: Project Six
+      subHeading: Project Subheading
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
+      photoUrl: img/portfolio/submarine.png
+      projectUrl: "#portfolioModal6"
+callToAction: "Start Now!"
+testimonials: []
+contact: 
+  text: "Hire me!"
+  address: {{address}}"3481 Melrose Place<br>Beverly Hills, CA 90210"
+  businessHours: "Monday - Friday: 9:00 AM to 5:00 PM"
+  mail: "{{contact_email}}"
+  phone: "{{contact_phone}}"
+  facebookUrl: "https://www.facebook.com/tamas.benke.161"
+  googlePlusUrl: "https://plus.google.com/107401799973522671886"
+  twitterUrl: "https://twitter.com/tombenke"
+  linkedInUrl: "https://www.linkedin.com/in/tam%C3%A1s-benke-02b9707/"
+  githubUrl: "https://github.com/{{author_github_account}}"

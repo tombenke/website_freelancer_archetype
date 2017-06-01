@@ -1,0 +1,154 @@
+# This is a configuration file for the kickoff utility
+description: |
+    This is a project archetype for business website.
+    New projects can be generated from this archetype by the
+    [kickoff](https://github.com/tombenke/kickoff) utility.
+
+welcome: >
+
+    You are generating a single page website using the startbootstrap-creative template.
+
+postscript: >
+
+    Next steps:
+
+    1. Install the npm modules required by the newly generated application:
+
+           cd <dest-folder>
+           npm install
+
+    2. Edit the template and the parameters according to your needs:
+
+        - src/templates/index.html
+        - src/parameters.yml
+
+    3. Change the images under the `src/img` folder.
+
+    4. To create the dist package, run either:
+
+           npm run build
+
+       or
+
+           npm run watch
+
+questions:
+    # A question object is a hash containing question related values:
+    - 
+        # type: (String)
+        # Type of the prompt.
+        # Defaults: input - Possible values: input, confirm, list
+        type: input
+
+        # name: (String)
+        # The name to use when storing the answer in the answers' hash.
+        name: project_name
+
+        # message: (String)
+        # The question to print.
+        message: The name of the project
+
+        # default: (String|Number|Array)
+        # Default value(s) to use if nothing is entered.
+        default: mysite
+
+    -
+        type: input
+        name: project_description
+        message: The short description of the project
+        default: This is my single page website.
+
+    -
+        type: input
+        name: contact_email 
+        message: The contact email address
+        default: contact@mydomain.com
+
+    -
+        type: input
+        name: contact_phone
+        message: The contact phone number
+        default: "(+??) ?????-???"
+
+    -
+        type: input
+        name: author_full_name
+        message: The full name of the author
+        default: Anonymous
+
+    -
+        type: input
+        name: author_email
+        message: The email address of the author
+        default: anonymous@some-domain.com
+
+    -
+        type: input
+        name: author_github_account
+        message: The github account (username) of the author
+        default: anonymous
+
+    -
+        type: input
+        name: page_title
+        message: The title of the page
+        default: My Site
+
+    -
+        type: input
+        name: brand 
+        message: The brand name
+        default: It's Me
+
+    -
+        type: input
+        name: status
+        message: The current status
+        default: Lead developer at Big Co.
+
+    -
+        type: input
+        name: skills
+        message: Short summary of skills
+        default: Designer, Full-stack Developer
+
+    -
+        type: input
+        name: address
+        message: Office address
+        default: "1234 Street 123<br>City, State/Country"
+
+    -
+        type: input
+        name: businessHours
+        message: Business Hours
+        default: "Monday - Friday: 9:00 AM to 5:00 PM"
+
+    -
+        type: input
+        name: facebookUrl
+        message:  Facebook page URL
+        default: "https://www.facebook.com/my_facebook_id"
+    -
+        type: input
+        name: googlePlusUrl
+        message: Google Plus page URL 
+        default: "https://plus.google.com/107401799973522671886"
+
+    -
+        type: input
+        name: twitterUrl
+        message: Twitter page URL
+        default: "https://twitter.com/my_twitter_id"
+
+    -
+        type: input
+        name: linkedInUrl
+        message: LinkedIn page URL
+        default: "https://www.linkedin.com/in/tam%C3%A1s-benke-02b9707/"
+
+
+converters:
+    handlebars:
+        - package.json
+        - src/parameters.yml
