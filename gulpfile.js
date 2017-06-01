@@ -134,6 +134,5 @@ gulp.task('watch', ['browserSync', 'markdown', 'mustache', 'less', 'minify-css',
                 'src/partials/**',
                 'src/parameters.yml'], ['mustache']);
     // Reloads the browser whenever HTML or JS files change
-    gulp.watch('*.html', browserSync.reload);
-    gulp.watch('dist/js/**/*.js', browserSync.reload);
+    gulp.watch("docs/**", browserSync.reload);
 });

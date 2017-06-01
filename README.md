@@ -4,6 +4,8 @@ website_freelancer_archetype
 This is [kickoff](http://tombenke.github.io/kickoff/) project archetype for website creation.
 It is based on the [Freelancer](http://startbootstrap.com/template-overviews/freelancer/) full website Bootstrap theme.
 
+This is [an example](https://tombenke.github.io/me/) that is originally created from this archetype.
+
 ## Usage
 
 ### Prerequisites

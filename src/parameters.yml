@@ -16,37 +16,37 @@ portfolio:
       subHeading: Project Subheading
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
       photoUrl: img/portfolio/cabin.png
-      projectUrl: "#portfolioModal1"
+      projectId: "portfolioModal1"
     - heading: Project Two
       subHeading: Project Subheading
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
       photoUrl: img/portfolio/cake.png
-      projectUrl: "#portfolioModal2"
+      projectId: "portfolioModal2"
     - heading: Project Three
       subHeading: Project Subheading
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
       photoUrl: img/portfolio/circus.png
-      projectUrl: "#portfolioModal3"
+      projectId: "portfolioModal3"
     - heading: Project Four
       subHeading: Project Subheading
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
       photoUrl: img/portfolio/game.png
-      projectUrl: "#portfolioModal4"
+      projectId: "portfolioModal4"
     - heading: Project Five
       subHeading: Project Subheading
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
       photoUrl: img/portfolio/safe.png
-      projectUrl: "#portfolioModal5"
+      projectId: "portfolioModal5"
     - heading: Project Six
       subHeading: Project Subheading
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
       photoUrl: img/portfolio/submarine.png
-      projectUrl: "#portfolioModal6"
+      projectId: "portfolioModal6"
 callToAction: "Start Now!"
 testimonials: []
 contact: 
   text: "Hire me!"
-  address: {{address}}"3481 Melrose Place<br>Beverly Hills, CA 90210"
+  address: "{{{address}}}"
   businessHours: "Monday - Friday: 9:00 AM to 5:00 PM"
   mail: "{{contact_email}}"
   phone: "{{contact_phone}}"
